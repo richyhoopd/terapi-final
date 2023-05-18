@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.register--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container--head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 40px;
+}
+
+.container--head > h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+}
+
+.container--head > p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(94, 103, 114, 0.67);
+}
+
+#form-login {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        width: 88vw;
+        height: 52vh;
+        
+      
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 88vw;
+  height: 72vh;
+  margin-top: 20px;
+}
+
+label {
+  width: 100%;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+}
+
+input {
+  box-sizing: border-box;
+  width: 88vw;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #0e112c;
+  border-radius: 13px;
+  line-height: normal;
+  padding: 17px 20px;
+}
+
+input:hover {
+  border: 1.5px solid #0c70e8;
+}
+
+input:focus {
+  outline: #0c70e8;
+  border: 1px solid #0c70e8;
+}
+
+#button--submit {
+  background-color: #0c70e8;
+  border: none;
+  color: #f9f9f9;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  cursor: pointer;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  height: 60px;
+  
+}
+
+#button--submit__red {
+  background-color: #d04d4d;
+  border: none;
+  color: #f9f9f9;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  cursor: pointer;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  height: 60px;
+  
+}
+
+#button--submit:hover {
+  background-color: #2065ba;
+  transform: scale(1.03) perspective(1px);
+  transition-timing-function: ease-in-out;
+}
+
+#button--submit__red:hover {
+  background-color: #8f2f2f;
+  transform: scale(1.03) perspective(1px);
+  transition-timing-function: ease-in-out;
+}
+
+.bottom--text {
+    font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(94, 103, 114, 0.67);
+}
+
+.bottom--text Link {
+    color: #0c70e8;
+
+}

@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.choose--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 21px;
+  gap: 30px;
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  /* Terapi white */
+
+  background: #f9f9f9;
+}
+
+h1.section--title {
+  width: 311px;
+  height: 36px;
+
+  /* Page Titles
+
+para poner hasta arriba en las paginas del lado derecho
+*/
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.estudiante {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  padding: 20px 26px;
+  width: 88vw;
+  height: 25vh;
+  background: #0c70e8;
+  border-radius: 25px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.terapeuta {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  padding: 20px 26px;
+  width: 88vw;
+  height: 25vh;
+  background: #f9f9f9;
+  border-radius: 25px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  /* Terapi Darkest */
+  border: 2px solid #0e112c;
+}
+
+.texto {
+  position: absolute;
+  width: 201.46px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+.terapeuta--texto {
+  position: absolute;
+  width: 201.46px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+}
+
+.choose--img {
+  width: 113;
+  height: 70;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}

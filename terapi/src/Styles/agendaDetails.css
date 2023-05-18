@@ -1,0 +1,164 @@
+/* definition */
+@font-face {
+  font-family: Clarendon-Regular;
+  src: url("../Fonts/Clarendon-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.agenda--details__container {
+  padding-top: 2em;
+  background-color: #0c70e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.details--component {
+  display: flex;
+  flex-direction: row;
+  width: 88vw;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.details--component > p {
+  font-family: "Clarendon-Regular";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 28px;
+  width: 10em;
+
+  /* Terapi white */
+
+  color: #f9f9f9;
+}
+
+.details--component > img {
+    width: 4em;
+    height: 4em;
+}
+
+.details--hour__component {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 88vw;
+  margin-top: 1.6em;
+  gap: 0.6em;
+}
+
+.details--hour__component p:nth-child(1) {
+  font-family: "Space Grotesk";
+  color: #f9f9f9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  margin-bottom: 0.18em;
+
+  /* Terapi white */
+}
+
+.details--hour__component p:nth-child(2) {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #f9f9f9;
+}
+
+.agenda--details__window {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 75vh;
+  margin-top: 1em;
+  background-color: #f9f9f9;
+  border-radius: 1.4em 1.4em 0 0;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.08);
+  z-index: 99;
+  align-items: center;
+}
+
+.agenda--details__window-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.1em;
+  width: 88vw;
+}
+
+.agenda--details__window-info h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+  margin-bottom: 1em;
+}
+
+.img--calendario {
+    width: 70px;
+}
+
+label {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #0e112c;
+align-items: center;
+}
+
+.inputtt {
+display: flex;
+flex-direction: column;
+}
+
+.inputtt > input {
+    background: rgba(94, 103, 114, 0.21);
+border-radius: 1em;
+border: none;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Terapi Dark */
+
+color: rgba(94, 103, 114, 0.67);
+}
+
+.labbel {
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.inputtt > button {
+    background-color: #0c70e8;
+    color: #f9f9f9;
+    height: 3em;
+    border-radius: 1em;
+    border: none;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-top: 0.5em;
+}

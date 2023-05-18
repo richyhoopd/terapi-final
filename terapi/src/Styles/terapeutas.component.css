@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.terapeutas--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card--terapeuta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 88vw;
+  height: 17.6vh;
+  background: #fff;
+  border-radius: 23px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-bottom: 2vh;
+};
+
+.card--terapeuta:hover {
+    transform: scale(1.03) perspective(1px);
+  transition-timing-function: ease-in-out;
+  border: 1px solid #0C70E8;
+}
+
+h2 {
+  margin-top: 5.5vh;
+  margin-bottom: 2.5vh;
+  width: 88vw;
+  height: 28px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #0e112c;
+}
+
+h2.card--chat__terapeuta {
+    margin-top: 2.25vh;
+    margin-bottom: 2.5vh;
+    width: 88vw;
+    height: 28px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #0e112c;
+  }
+
+
+.nombre--terapeuta {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-decoration: none;
+color: #0E112C;
+}
+
+.especialidades--terapeuta {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #0C70E8;
+}
+
+#fechas--terapeuta {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+/* Terapi Dark */
+
+color: rgba(94, 103, 114, 0.67);
+width: 148px;
+}

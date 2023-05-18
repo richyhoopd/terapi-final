@@ -1,0 +1,132 @@
+.agenda--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* definition */
+@font-face {
+  font-family: Clarendon-Regular;
+  src: url('../Fonts/Clarendon-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#containerrr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+  gap: 2vw;
+}
+
+.agenda--item {
+  width: 88vw;
+  height: 12.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.87em;
+  margin-top: 1em;
+}
+
+.agenda--text__left > p:nth-child(1) {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+}
+
+.input--dropdown__lol {
+  border: none;
+  margin-bottom: 1em;
+  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+
+
+/* Terapi Darkest */
+
+color: #0E112C;
+}
+
+.agenda--text__left:nth-child(1) {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+}
+.agenda--box {
+  background-color: #0c70e8;
+  color: #f9f9f9;
+  border-radius: 1.43em;
+  height: 100%;
+  width: 100%;
+  padding: 1.9em 1.3em;
+}
+
+.row-1 {
+  margin-bottom: 2em;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-2 > p {
+  font-family: Clarendon-Regular;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  width: 70%;
+  margin-bottom: 0.5em;
+  color: #f9f9f9;
+}
+
+.row-1 > p:nth-child(1) {
+  font-family: Clarendon-Regular;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+
+  /* Terapi white */
+
+  color: #f9f9f9;
+}
+
+.agenda--pfp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.agenda--details__button {
+  width: 2.4em;
+  height: 8.8em;
+  background-color: #f9f9f9;
+  color: #0e112c;
+  padding: 0.5em 1.3em;
+  border-radius: 0.8em;
+  text-decoration: none;
+}

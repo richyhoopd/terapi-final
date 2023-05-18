@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* definition */
+@font-face {
+  font-family: Clarendon-Bold;
+  src: url('../Fonts/clarendon-bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.splashScreen--container {
+  /* terapi - splashscreen */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 266px 100px;
+gap: 10px;
+
+position: relative;
+width: 100vw;
+height: 100vh;
+
+/* Terapi Strong Blue 2
+Backgrounds, menus
+*/
+background-color: #0C70E8;
+
+}
+
+h1.logo--splashscreen {
+  font-family: Clarendon-Bold;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 63px;
+
+  /* Terapi white */
+
+  color: #f9f9f9;
+}

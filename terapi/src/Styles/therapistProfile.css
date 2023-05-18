@@ -1,0 +1,211 @@
+.terapeuta--perfil__container {
+  padding-top: 2em;
+  background-image: url(../Assets/backgroundimg.svg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.white--background__card > img {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  z-index: 99;
+  justify-content: center;
+}
+
+.center--image__container {
+  position: relative;
+}
+
+.white--background__card {
+  border-radius: 1.43em 1.43em 0 0;
+  padding-top: 5em;
+  margin-top: -4em;
+  height: 50vh;
+  width: 100vw;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.content--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.nombre--terapeuta {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+}
+
+.cedula--profesional {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* Terapi Strong Blue 2 */
+
+  color: #0c70e8;
+}
+
+.terapist--expertice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 8px;
+  padding-top: 1.1em;
+
+  width: 88vw;
+}
+
+.terapist--expertice span {
+  background: rgba(12, 112, 232, 0.21);
+  border-radius: 1.1em;
+  padding: 0.31em 0.68em;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Terapi Strong Blue 2 */
+
+  color: #0c70e8;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+.about--terapist {
+  display: flex;
+  flex-direction: column;
+  width: 88vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about--title {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+  margin-bottom: 1em;
+}
+
+.about--content {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 1em;
+
+  /* Terapi Dark */
+
+  color: rgba(94, 103, 114, 0.67);
+}
+
+.horarioss {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.horarioss span {
+  background: #f9f9f9;
+  border: 2px solid rgba(94, 103, 114, 0.67);
+  border-radius: 0.6em;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0.62em 1.5em;
+  align-items: center;
+  justify-content: center;
+
+  /* Terapi white */
+
+  color: #0c70e8;
+}
+
+#checked {
+  background-color: #0c70e8;
+  border: none;
+  color: #f9f9f9;
+  padding: 0.62em 1.5em;
+  border: solid 2px #0c70e8;
+  align-items: center;
+  justify-content: center;
+}
+
+.cagada-fix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100vw;
+    height: 12vh;
+    bottom: 0;
+    z-index: 999;
+    position: fixed;
+
+}
+
+#button-bottom-agenda {
+  background-color: #0c70e8;
+  padding: 0.8em 2em;
+  border-radius: 0.8em;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  width: 88vw;
+  /* Terapi white */
+
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.badassimg{
+  width: 30%;
+  display: block;
+  margin: auto;
+  padding: 0px;
+}

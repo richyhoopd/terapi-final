@@ -1,0 +1,63 @@
+.contactos--emergencia__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+  gap: 2vw;
+}
+
+.card--contacto__emergencia {
+  display: flex;
+  width: 43vw;
+  height: 11.4em;
+  background-color: #fff;
+  border-radius: 1.4em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px 10px;
+}
+
+.card--contacto__emergencia > p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* Terapi Darkest */
+
+  color: #0e112c;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.pedir--ayuda__button {
+  font-family: "Space Grotesk";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25em;
+  height: 2.4em;
+
+  /* Terapi white */
+
+  color: #f9f9f9;
+
+  background: #0c70e8;
+  border-radius: 0.8em;
+  width: 37.8vw;
+  height: 5.8vh;
+}

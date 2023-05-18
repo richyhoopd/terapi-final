@@ -1,0 +1,32 @@
+.btn--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnFechaComponent {
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-start;
+align-items: center;
+padding: 17px 128px 17px 21px;
+gap: 15px;
+
+width: 88vw;
+height: 8vh;
+background: #0C70E8;
+border-radius: 23px;
+border: none;
+color: #f9f9f9;
+font-family: 'Space Grotesk';
+font-weight: 400;
+font-size: 22px;
+transition: 0.3s;
+cursor: pointer;
+}
+
+#btnFechaComponent:hover {
+    background-color: #2065ba;
+  transform: scale(1.03) perspective(1px);
+  transition-timing-function: ease-in-out;
+}

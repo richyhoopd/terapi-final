@@ -1,0 +1,121 @@
+.chat--container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  position: relative;
+}
+
+.top-chat__back {
+  display: flex;
+  flex-direction: row;
+  width: 88vw;
+  gap: 1em;
+  margin-bottom: 2.2em;
+}
+
+.text--info p:nth-child(1) {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+ 
+  /* Terapi Darkest */
+    
+  color: #0e112c;
+}
+
+.text--info p:nth-child(2) {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Terapi Strong Blue 2 */
+
+color: #0C70E8;
+}
+
+.incomming-message {
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    margin-bottom: 1.3em;
+    
+}
+
+.incomming-message p {
+    width: 64vw;
+    background: rgba(94, 103, 114, 0.50);
+border-radius: 1.4em 1.4em 1.4em 0px;
+padding: 0.75em 1.3em;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+
+}
+
+.outgoing--message {
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+    margin-bottom: 1.3em;
+    
+}
+
+.outgoing--message p {
+    width: 64vw;
+    background-color: #0C70E8;
+border-radius: 1.4em 1.4em 0em 1.4em;
+padding: 0.75em 1.3em;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+/* Terapi white */
+
+color: #F9F9F9;
+
+}
+
+.message--input {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+  margin-bottom: 1em;
+
+}
+
+.message--input input {
+    background: rgba(94, 103, 114, 0.21);
+border-radius: 23px;
+border: none;
+width: 72%;
+height: 7.4vh;
+margin-right: 1em;
+}
+
+.message--input button {
+    border-radius: 100em;
+    width: 13.3vw;
+    height: 7.4vh;
+    border: none;
+    background-color: #0C70E8;
+    color: #F9F9F9;
+}
+
+
